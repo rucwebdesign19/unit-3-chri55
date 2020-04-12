@@ -1,0 +1,109 @@
+html * {
+  font-size: 1.3rem;
+  --fontSize: 1.3em;
+  line-height: 1.4;
+  box-sizing: border-box;
+  font-family: 'Varela Round', 'Open Sans';
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Varela Round';
+}
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2.2rem;
+}
+
+h4 {
+  font-size: 1.8rem;
+}
+
+.navi {
+  background-color: mediumseagreen;
+  color: white;
+
+  /*Box shadow from: https://www.cssmatic.com/box-shadow */
+  -webkit-box-shadow: 0px 10px 18px -4px rgba(135, 135, 135, 0.75);
+  -moz-box-shadow: 0px 10px 18px -4px rgba(135, 135, 135, 0.75);
+  box-shadow: 0px 10px 18px -4px rgba(135, 135, 135, 0.75);
+  
+}
+
+.nav-items {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  margin: 0 20px;
+  padding: 20px;
+  list-style-type: none;
+}
+
+.nav-item a {
+  color: white;
+  margin: 20px 0;
+  
+}
+
+.nav-item.title {
+  text-decoration: none;
+  list-style-type: none;
+  color: lime;
+}
+
+hr {
+  margin: 20px 0;
+  color: lime;
+}
+
+.main, .secondary {
+  margin: 1rem;
+}
+
+.posted-at {
+  color: gray;
+}
+
+.card-list {
+  display:flex;
+  flex-flow: column nowrap;
+}
+
+.card {
+  width: 90%;
+  border-radius: 15px;
+  margin: 20px auto;
+  display: flex;
+  flex-flow: column nowrap;
+  /* Box Shadow source: https: //www.cssmatic.com/box-shadow */
+  -webkit-box-shadow: 10px 8px 15px 4px rgba(135, 135, 135, 0.5);
+  -moz-box-shadow: 10px 8px 15px 4px rgba(135, 135, 135, 0.5);
+  box-shadow: 10px 8px 15px 4px rgba(135, 135, 135, 0.5);
+}
+
+.card h4,
+.card ul {
+  padding: 1rem;
+  /* margin: 1rem auto; */
+  list-style-type: none;
+  justify-self: flex-start;
+}
+
+
+.recipe-img {
+  width: 80%;
+  margin: 0 auto;
+}
